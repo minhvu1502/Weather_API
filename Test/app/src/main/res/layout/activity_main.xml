@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bg"
-    tools:context=".MainActivity"
-    >
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/tv_hours"
@@ -54,15 +53,11 @@
         android:id="@+id/btn_search"
         android:layout_width="88dp"
         android:layout_height="40dp"
-<<<<<<< HEAD
         android:layout_marginTop="5dp"
         android:layout_marginEnd="10dp"
-=======
-        android:layout_marginTop="20dp"
-        android:hint="Tìm kiếm"
->>>>>>> 66e6717a4dfdaa76c3aa5596f81d7e2e8ba33c79
         android:background="@android:color/holo_blue_light"
         android:gravity="center"
+        android:hint="Tìm kiếm"
         android:text="Search"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"

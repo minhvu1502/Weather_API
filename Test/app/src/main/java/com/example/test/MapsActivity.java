@@ -95,13 +95,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     }
 
     private void AnhXa() {
-<<<<<<< HEAD
         txt_tim = (EditText) findViewById(R.id.txt_tim);
         btn_tim = (Button) findViewById(R.id.btn_tim);
-=======
 //        txt_tim = (EditText)findViewById(R.id.txt_tim);
 //        btn_tim = (Button)findViewById(R.id.btn_tim);
->>>>>>> 66e6717a4dfdaa76c3aa5596f81d7e2e8ba33c79
         btn_back = (ImageButton) findViewById(R.id.btn_back);
     }
 
@@ -162,21 +159,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         LatLng city = new LatLng(10.8230989, 106.6296638);
         mMap.addMarker(new MarkerOptions().position(city).title("Hồ Chí Minh, Việt Nam"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(city, 15));
-<<<<<<< HEAD
-=======
     }
 
     // Callback khi bạn click vào item
-
-    @Override
-    public void onPlaceSelected(@NonNull Place place) {
-
-    }
-
-    //Lỗi
-    @Override
-    public void onError(Status status) {
-
->>>>>>> 66e6717a4dfdaa76c3aa5596f81d7e2e8ba33c79
-    }
 }
